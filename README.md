@@ -7,34 +7,34 @@ This project examines the relationship between smoking references in popular mus
 ## Key Features
 
 - **Data Collection Pipeline**: Custom-built web scrapers to gather music popularity data from multiple sources:
- - Kent Music Report (1955-1987) via Wikipedia
- - ARIA Charts (1988-2023) via official website
- - Triple J Hottest 100 (1993-2023) via Wikipedia
+     - Kent Music Report (1955-1987) via Wikipedia
+     - ARIA Charts (1988-2023) via official website
+     - Triple J Hottest 100 (1993-2023) via Wikipedia
 
 - **Lyrics Extraction System**: Multi-tiered web scraping approach for gathering song lyrics from Genius.com:
- - Direct URL construction
- - API search functionality
- - Advanced text cleaning for improved matching
+    - Direct URL construction
+    - API search functionality
+    - Advanced text cleaning for improved matching
 
 - **NLP Processing**: Comprehensive text analysis pipeline including:
- - Text cleaning and normalization
- - Stopword removal with custom music-specific additions
- - Keyword identification and counting
- - TF-IDF (Term Frequency-Inverse Document Frequency) analysis
+    - Text cleaning and normalization
+    - Stopword removal with custom music-specific additions
+    - Keyword identification and counting
+    - TF-IDF (Term Frequency-Inverse Document Frequency) analysis
 
 - **Smoking Reference Lexicon**: Custom-built lexicon of smoking-related terms, expanded using Word2Vec embeddings to capture semantic relationships
 
 - **Time Series Analysis**: Aggregation of smoking references by year with various metrics:
- - Total references
- - References per song
- - 10-year rolling averages
- - Comparative analysis with smoking prevalence data
+    - Total references
+    - References per song
+    - 10-year rolling averages
+    - Comparative analysis with smoking prevalence data
 
 - **Machine Learning Models**:
- - Linear Regression (baseline model)
- - Support Vector Regression with hyperparameter tuning
- - Feature scaling and preprocessing
- - Performance evaluation with R² scores of up to 0.893
+    - Linear Regression (baseline model)
+    - Support Vector Regression with hyperparameter tuning
+    - Feature scaling and preprocessing
+    - Performance evaluation with R² scores of up to 0.893
 
 ## Technical Stack
 
@@ -56,10 +56,6 @@ This project examines the relationship between smoking references in popular mus
 ## Project Structure
 
 - `data/`: Raw and processed datasets
-- `notebooks/`: Jupyter notebooks for analysis
-- `scrapers/`: Web scraping scripts for song lists and lyrics
-- `models/`: Trained machine learning models
-- `visualizations/`: Generated plots and figures
 - `README.md`: Project documentation
 
 ## Future Work
